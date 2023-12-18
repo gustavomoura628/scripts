@@ -7,5 +7,5 @@ mkdir ~/.local
 make install DESTDIR=~/.local
 
 #ln -sf ~/.local/usr/local/bin/vim ~/bin/vim # Maybe works
-echo 'alias vim=~/.local/usr/local/bin/vim' > ~/.bashrc # Works 100% of the time
+echo 'alias vim=~/.local/usr/local/bin/vim' >> ~/.bashrc # Works 100% of the time
 source ~/.bashrc
