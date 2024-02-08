@@ -1,9 +1,5 @@
 #!/bin/bash
-if command -v nvim
-then
-    echo program is already installed!
-    exit 0
-fi
+if command -v nvim; then echo nvim is already installed!; exit 0; fi
 
 mkdir /tmp/install_nvim_locally
 cd /tmp/install_nvim_locally
